@@ -5,12 +5,12 @@ export const todoListState = atom({
   default: [
     {
       id: 0,
-      text: "BIIIIITCHHH",
+      text: "HELLO",
       isComplete: false,
     },
     {
       id: 1,
-      text: "YUUUCKKKK",
+      text: "World",
       isComplete: false,
     },
   ],

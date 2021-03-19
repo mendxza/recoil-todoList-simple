@@ -11,3 +11,46 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+/*
+
+{
+  name: 'RecoilRoot',
+  sibling: null,
+  children: [
+    {
+      name: 'Context.Provider',
+      sibling: null,
+      children: [
+        {
+          name: 'Context.Provider',
+          sibling: null,
+          children: [
+            { 
+              name: Batcher
+              sibling: true,
+              children: []
+            },
+            { 
+              name: RecoilizeDebugger,
+              sibling: true,
+              children: []
+            },
+            {
+              name: PlaygroundRender,
+              sibling: null,
+              children: [
+                {
+                  name: PlaygroundStart,
+                  sibling: null,
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+*/

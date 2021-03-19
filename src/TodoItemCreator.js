@@ -4,7 +4,7 @@ import { useState } from "react";
 
 // helper function to increment a value to use as ID
 function adder() {
-  let num = 0;
+  let num = 2;
   function numAdder() {
     return num++;
   }
